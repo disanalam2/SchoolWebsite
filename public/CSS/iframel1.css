@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.login{
+    width: 100vw;
+    margin-top: 50px;
+}
+.register{
+    width: 100vw;
+    margin-top: 50px;
+}
+.getintouch{
+    width: 100vw;
+    margin-top: 50px;
+}
+.cctv{
+    width: 100vw;
+    margin-top: 50px;
+}

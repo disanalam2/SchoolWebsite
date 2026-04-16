@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    background-color: rgb(38, 35, 37);
+}
+
+.top {
+    background-color: rgb(38, 35, 37);
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid rgb(187, 154, 90);
+}
+
+.burger {
+    padding: 1vw;
+    padding-top: 10px;
+    cursor: pointer;
+    border-right: 3px solid rgb(187, 154, 90);
+    padding-right: 10px;
+}
+
+.line {
+    height: 1.5px;
+    width: 20px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.top img {
+    width: 30px;
+    height: 40px;
+    padding-left: .5vw;
+}
+
+.main {
+    display: flex;
+}
+
+.fps {
+    color: white;
+    margin-left: .5vw;
+    padding-right: 1.7vw;
+    padding-top: 5px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.logo {
+    display: flex;
+}
+
+.top2 {
+    justify-content: center;
+}
+
+.top1 {
+    justify-content: center;
+}
+
+.topbar {
+    display: grid;
+}
+
+.topbar ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    align-items: center;
+    margin-left: 1vw;
+}
+
+.topbar ul li {
+    margin-right: 1.5vw;
+}
+
+.topbar ul li a {
+    text-decoration: none;
+    color: white;
+    margin-top: 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:  'Roboto Condensed',sans-serif;
+}  
+
+.iframel1s {
+    width: 40px;
+    height: 80vh;
+    position: fixed;
+    margin-top: 45px;
+}
+
+.iframel1h {
+    display: none;
+    visibility: hidden;
+}
+
+.iframel2h {
+    visibility: hidden;
+    display: none;
+}
+
+.iframel2s {
+    width: 18vw;
+    position: fixed;
+    margin-top: 45px;
+    height: 80vh;
+    border-right: .2vw solid rgb(187, 154, 90);
+}
+
+.iside2_hide {
+    margin-top: 45px;
+    width: 95vw;
+    height: 85vh;
+    background-color: rgb(203, 202, 200);
+    margin-left: 45px;
+}
+
+.iside2 {
+    margin-top: 45px;
+    width: 82vw;
+    height: 85vh;
+    background-color: rgb(203, 202, 200);
+    margin-left: 18vw;
+}
+
+.footer {
+    width: 100vw;
+    height: 6vh;
+}
+
+@media(max-width:1213px) {
+    .fps {
+        display: none;
+    }
+}
+
+@media(max-width:763px) {
+    .topbar ul li a {
+        font-size: 15px;
+    }
+}
+@media(max-width:648px) {
+    .topbar ul li a {
+        font-size: 13px;
+    }
+}

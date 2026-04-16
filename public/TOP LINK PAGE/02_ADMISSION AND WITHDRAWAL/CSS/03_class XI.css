@@ -1,0 +1,26 @@
+* {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+table{
+    border-collapse:separate;
+    display: table;
+    width: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-spacing: 2px;
+}
+tr,td,th{
+    border-spacing: 2px;
+    border: 2px solid black;
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+}

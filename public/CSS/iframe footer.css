@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    background-color: rgb(38, 35, 37); 
+}
+footer {
+    font-size: 40vh;
+    background-color: rgb(38, 35, 37);
+    color: white;
+    display: flex;
+}
+
+.leftf {
+    width:100vw;
+}

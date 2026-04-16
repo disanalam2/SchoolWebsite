@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+    margin-left: 0%;
+    padding: 0%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    background-color: aqua;
+    
+}
+.d2{
+    display: flex;
+    background-color: aquamarine;
+}
+.d2-1 {
+    margin-right: 10px;
+    background-color: aquamarine;
+}
+
+.d2-2 { 
+    background-color: aquamarine;
+}

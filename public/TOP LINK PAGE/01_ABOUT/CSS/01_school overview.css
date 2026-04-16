@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+.About-School-w{
+    width: 60%;
+    background-color: aquamarine;
+}
+.About-School{
+    background-color: aquamarine;
+    border-radius: 2%;
+    padding: 10px;
+    margin-top: 10px;
+}
+h2{
+    font-family:  'Roboto Condensed',sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+p{
+    font-family: arial,sans-serif;
+}
+.About-School,.d1 , .d2 ,.d4 ,.d5{
+    display: flex;
+}
+.d2,.d3,.d4,.d5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.d1{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 2%;
+}
+.d1 .vision{
+    width: 50vw;
+}
+.d1 .advantages{
+    float: right;
+    width: 50vw;
+}
+.d2{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 2%;
+}
+.d2-1{
+    width: 50vw;
+}
+.d2-2{
+    float: right;
+    width: 50vw;
+}
+.d3{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 2%;
+}
+.d4{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 2%;
+}
+.d5{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 2%;
+}
+.d4 div img{
+    width: 50vw;
+}
+img{
+    border-radius: 20%;
+}

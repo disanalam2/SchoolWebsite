@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin: 2vw;
+}
+h2{
+    color: blue;
+    text-decoration-line:underline;
+}
+h3{  
+    color: blueviolet;
+    margin: 1vw;
+}
+.maps iframe{
+    width: 98vw;
+    height: 70vh;
+}
+.main{
+    display: flex;
+    margin-top: 5vh;
+}
+.mainl{
+    width: 68vw;
+}
+.mainr{
+    width: 30vw;
+    border: .5vw solid rgb(187, 154, 90);
+    border-radius: 2%;
+    margin-top: 5vw;
+    height: 70vh;
+}
+.cdet img{
+    width: 2vw;
+}
+.cdet {
+    font-size:2vw;
+    margin: 2vw; 
+    color: black;
+}
+.cdet a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-form  {
+    text-align: center;
+}
+textarea {
+    width: 30vw;
+    height: 20vh;
+}
+.form-group{
+    margin-top: 2vh;
+}
+.form-group input{
+    width: 28vw;
+}

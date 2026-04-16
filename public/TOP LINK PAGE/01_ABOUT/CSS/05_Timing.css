@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    margin-left: 0%;
+    padding: 0%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    background-color: aquamarine;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: aqua;
+    width: 18vw;
+    padding: 5px;
+    margin-bottom: 3px;
+    border-radius: 5%;
+
+}
+h2{
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: aqua;
+    width: 350px;
+    padding: 5px;
+    border-radius: 5%;
+}
+.d1-box h3{
+    margin: 5px;
+    background-color: aqua;
+}
+.d1-box h4{
+    margin: 4px;
+    background-color: aqua;
+}
+.d1-box h5{
+    margin: 3px;
+    background-color: aqua;
+}
+.d1{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.d1-box{
+    margin-left: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    padding-top: 20px;
+    border: 2px solid aqua;
+    background-color: aqua;
+    border-radius: 10%;
+    height: 40vh;
+}
+.down{
+    display: flex;
+    margin-top: 20px;
+}
+.down div{
+    width: 30%;
+    margin-left: 10px;
+}
+.down-1{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10%;
+    background-color: aqua;
+}
+.down div div{
+    width: 100%;
+    border-radius: 10%;
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.down div p,h3 {
+    background-color: aqua;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+.down-2{
+    margin-right: 30px;
+}
