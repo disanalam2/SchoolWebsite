@@ -7,7 +7,7 @@
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    background-image: url('/PHOTO/mb.JPG');
+    background-image: url("../../PHOTO/mb.JPG");
     background-size: 100%;
     filter: blur(2px);
 }
