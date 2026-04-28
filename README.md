@@ -1,39 +1,65 @@
-# FIRAYALAL PUBLIC SCHOOL Website Project
+# 🏫 Firayalal Public School Website
 
-## Overview
-This project is a static school website for Firayalal Public School built with HTML, CSS, JavaScript, Bootstrap, and Firebase Hosting. The site is organized into multiple pages and sections using iframes and includes a responsive navigation menu, school information pages, online admission flow, and contact pages.
+A fully responsive, static school website built for Firayalal Public School. This project showcases a multi-page architecture using HTML, CSS, JavaScript, and Bootstrap, with seamless deployment via Firebase Hosting.
 
-## Key Features
-- Multi-page static website with nested pages for school information, admissions, academics, extracurriculars, infrastructure, media, and notice board.
-- Main landing page uses `iframe` elements to display the school dashboard and content pages within the same layout.
-- Sidebar quick links for `Login`, `Register`, `Get in Touch`, and `CCTV` sections.
-- Responsive burger menu behavior using custom JavaScript to toggle visibility of side panels.
-- Integrated Firebase Web SDK and Firebase Analytics for project tracking.
-- Firebase Hosting configuration via `firebase.json`.
-- Right-click is disabled on main pages for basic content protection.
+## 🌟 Overview
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- jQuery (CDN)
-- Firebase Web SDK
-- Firebase Hosting
+This project simulates a complete school web portal. It is organized into multiple sections, including Admissions, Academics, Infrastructure, and Media. The main layout utilizes `iframe` elements to render content dynamically within a consistent dashboard interface, offering a smooth user experience.
 
-## Project Structure
-- `index.HTML` — main website entry point with menu and iframe layout.
-- `HTML/` — inner page templates loaded inside iframes.
-- `CSS/` — custom styles for main pages and iframe content.
-- `JAVA SCRIPT/` — custom JavaScript files for interactions and menu toggling.
-- `TOP LINK PAGE/` — top navigation content pages for About, Admissions, Academics, etc.
-- `public/` — deploy-ready public folder used by Firebase Hosting.
-- `firebase.json` — Firebase Hosting configuration.
+## ✨ Key Features
 
-## Deployment
-The website is deployed using Firebase Hosting. The `public/` directory is configured as the hosting root in `firebase.json`.
+- **Comprehensive Navigation:** Multi-page layout covering School Information, Admissions, Academics, Extracurriculars, Infrastructure, Media, and Notice Board.
+- **Dashboard Layout:** Main landing page uses `iframe` elements for seamless content rendering without full page reloads.
+- **Quick Access Sidebar:** Easy access to `Login`, `Register`, `Get in Touch`, and `CCTV` sections.
+- **Responsive Design:** Mobile-friendly burger menu and collapsible side panels powered by custom JavaScript.
+- **Firebase Integration:** Pre-configured with Firebase Web SDK, Firebase Analytics, and Firebase Hosting.
+- **Content Protection:** Basic content protection implemented by disabling right-click interactions.
 
-## Notes
-- The project loads Firebase SDK modules from the official CDN.
-- `package-lock.json` is present but the site is primarily static and does not use a Node.js build pipeline.
-- The site includes multiple versions of the project in both root and `public/` folders for development and deployment.
+## 🛠️ Technologies Used
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap, jQuery (CDN)
+- **Backend/Hosting:** Firebase Web SDK, Firebase Analytics, Firebase Hosting
+
+## 📂 Project Structure
+
+```text
+├── index.html           # Main website entry point with menu and iframe layout
+├── HTML/                # Inner page templates loaded inside iframes
+├── CSS/                 # Custom styles for main pages and iframe content
+├── JAVA SCRIPT/         # Custom JS files for interactions and menu toggling
+├── TOP LINK PAGE/       # Top navigation content pages (About, Admissions, etc.)
+├── public/              # Deploy-ready public folder for Firebase Hosting
+└── firebase.json        # Firebase Hosting configuration
+```
+
+## 🚀 Getting Started
+
+To run this project locally, you don't need any complex build tools since it's a static site.
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/disanalam2/SchoolWebsite.git
+   ```
+2. **Open the project:**
+   Simply open `index.html` in your preferred web browser. 
+   *Alternatively, use a local development server like VS Code Live Server for the best experience.*
+
+## 🌐 Deployment
+
+This website is optimized for Firebase Hosting.
+
+1. Install the Firebase CLI:
+   ```bash
+   npm install -g firebase-tools
+   ```
+2. Login and deploy:
+   ```bash
+   firebase login
+   firebase deploy
+   ```
+
+## 📝 Notes
+
+- The project loads Firebase SDK modules directly via the official CDN.
+- Although a `package-lock.json` is present, the site is primarily static and does not require a Node.js build pipeline.
+- The repository contains development files in the root and production-ready files in the `public/` directory.
